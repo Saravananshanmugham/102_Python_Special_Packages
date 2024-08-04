@@ -1,0 +1,16 @@
+body {  
+    background-color: gray
+  }  
+  h1 {  
+    color:rgb(19, 19, 219);  
+  }  
+  h2 {
+    color: darkgreen;
+  }
+
+  h3 {
+    color: deeppink;
+  }
+  p {  
+    color: red;  
+  } 

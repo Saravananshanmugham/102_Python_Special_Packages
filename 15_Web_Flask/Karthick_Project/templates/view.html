@@ -1,0 +1,33 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Student Information</title>  
+</head>  
+<body>  
+<h2>{{ msg }}</h2>
+<h3>Student Information</h3>  
+
+</body>
+
+<table border=1>  
+    <thead>  
+        <td>Enrollment Number</td>  
+        <td>Student Name</td>  
+        <td>Password</td>  
+    </thead>  
+      
+    {% for row in rows %}  
+        <tr>  
+            <td>{{row[0]}}</td>  
+            <td>{{row[1]}}</td>  
+            <td>{{row[2]}}</td>  
+        </tr>  
+      
+    {% endfor %}  
+</table>  
+<br><br>  
+  
+<a href="/menu">Go to menu page</a>  
+  
+</body>  
+</html>  
